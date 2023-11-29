@@ -1,0 +1,51 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    
+}
+
+.shape{
+    position: absolute;
+    cursor: move;
+    border: 2px solid black;
+}
+#shape1{
+    
+   width: 300px;
+   height: 300px;
+   transform: translate(50vw, 60vh);
+   background-color: red;
+   border-radius: 50%;
+ 
+
+}
+
+#shape2{
+    width: 200px;
+    height: 300px;
+    transform: translate(20vw, 40vh);
+    background-color: blue;
+}
+
+#shape3{
+    width: 200px;
+    height: 200px;
+    transform: translate(50vw, 10vh);
+    background-color: yellow;
+}
+
+#shape4{
+    width: 300px;
+    height: 300px;
+    transform: translate(2vw, 2vh);
+    border-radius: 50%;
+    background-color:orangered;
+}
+
+#shape5{
+    width: 200px;
+    height: 300px;
+    transform: translate(80vw, 40vh) ;
+    background-color: chartreuse;
+}
